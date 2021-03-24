@@ -1,0 +1,1041 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F4AC5F9243379C40063CD52 /* LevelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4AC5F8243379C40063CD52 /* LevelController.swift */; };
+		0F4AC5FB243379D80063CD52 /* LevelController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F4AC5FA243379D80063CD52 /* LevelController.xib */; };
+		0F4AC5FE243398620063CD52 /* VibrationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4AC5FC243398620063CD52 /* VibrationManager.swift */; };
+		0F508534246850E60091BAF2 /* RifficFree-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0F508533246850E60091BAF2 /* RifficFree-Bold.ttf */; };
+		0F508535246850E60091BAF2 /* RifficFree-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0F508533246850E60091BAF2 /* RifficFree-Bold.ttf */; };
+		0F50AABB245ECC420073AE00 /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA93CD3227348AB005F1EAA /* ScoreViewController.swift */; };
+		0F50AABE245ECC420073AE00 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0F4B8422730708007EFBC8 /* MenuViewController.swift */; };
+		0F50AABF245ECC420073AE00 /* WinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F831F892454A37E00E4F5F1 /* WinViewController.swift */; };
+		0F50AAC1245ECC420073AE00 /* BallNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8F7C88244DE0F90024D46B /* BallNode.swift */; };
+		0F50AAC5245ECC420073AE00 /* LevelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4AC5F8243379C40063CD52 /* LevelController.swift */; };
+		0F50AAC6245ECC420073AE00 /* TubeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8F7C87244DE0F80024D46B /* TubeNode.swift */; };
+		0F50AAC7245ECC420073AE00 /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A83DEF024420785003D4B34 /* AudioManager.swift */; };
+		0F50AAC8245ECC420073AE00 /* AudioSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A83DEED24420718003D4B34 /* AudioSource.swift */; };
+		0F50AACF245ECC420073AE00 /* Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F106C2322733E32005D3886 /* Options.swift */; };
+		0F50AAD0245ECC420073AE00 /* VibrationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4AC5FC243398620063CD52 /* VibrationManager.swift */; };
+		0F50AAD2245ECC420073AE00 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F106C2122733A0A005D3886 /* SettingsViewController.swift */; };
+		0F50AAD3245ECC420073AE00 /* GameLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5828062430EE4300CDA1A8 /* GameLogic.swift */; };
+		0F50AAD4245ECC420073AE00 /* LoseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FAFB511244E31640097682C /* LoseViewController.swift */; };
+		0F50AAD5245ECC420073AE00 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5828082430EE4300CDA1A8 /* GameViewController.swift */; };
+		0F50AAD9245ECC420073AE00 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AC475802434875C00A80BE9 /* GameKit.framework */; };
+		0F50AADC245ECC420073AE00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A42422E11E3C4BA500F7FC1B /* LaunchScreen.storyboard */; };
+		0F50AADD245ECC420073AE00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A42422DF1E3C4BA500F7FC1B /* Assets.xcassets */; };
+		0F50AADF245ECC420073AE00 /* LevelController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F4AC5FA243379D80063CD52 /* LevelController.xib */; };
+		0F50AAE3245ECC420073AE00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A42422DC1E3C4BA500F7FC1B /* Main.storyboard */; };
+		0F5828092430EE4300CDA1A8 /* GameLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5828062430EE4300CDA1A8 /* GameLogic.swift */; };
+		0F58280B2430EE4300CDA1A8 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5828082430EE4300CDA1A8 /* GameViewController.swift */; };
+		0F780EC824702E7100E75CA7 /* spring.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0F780EC624702E7100E75CA7 /* spring.mp3 */; };
+		0F780EC924702E7100E75CA7 /* spring.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0F780EC624702E7100E75CA7 /* spring.mp3 */; };
+		0F780ECD2470320F00E75CA7 /* background.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0F780ECC2470320F00E75CA7 /* background.mp3 */; };
+		0F780ECE2470320F00E75CA7 /* background.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0F780ECC2470320F00E75CA7 /* background.mp3 */; };
+		0F831F8A2454A37E00E4F5F1 /* WinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F831F892454A37E00E4F5F1 /* WinViewController.swift */; };
+		0F8F7C89244DE0F90024D46B /* TubeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8F7C87244DE0F80024D46B /* TubeNode.swift */; };
+		0F8F7C8A244DE0F90024D46B /* BallNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8F7C88244DE0F90024D46B /* BallNode.swift */; };
+		0FAFB512244E31640097682C /* LoseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FAFB511244E31640097682C /* LoseViewController.swift */; };
+		3278096624D3553B00EF184F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3278093C24D3553B00EF184F /* AppDelegate.swift */; };
+		3278096724D3553B00EF184F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3278093C24D3553B00EF184F /* AppDelegate.swift */; };
+		3278096824D3553B00EF184F /* TestRemoteManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3278093F24D3553B00EF184F /* TestRemoteManager.swift */; };
+		3278096924D3553B00EF184F /* TestRemoteManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3278093F24D3553B00EF184F /* TestRemoteManager.swift */; };
+		3278096A24D3553B00EF184F /* TestManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3278094024D3553B00EF184F /* TestManger.swift */; };
+		3278096B24D3553B00EF184F /* TestManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3278094024D3553B00EF184F /* TestManger.swift */; };
+		3278096C24D3553B00EF184F /* NibLoadableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3278094224D3553B00EF184F /* NibLoadableProtocol.swift */; };
+		3278096D24D3553B00EF184F /* NibLoadableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3278094224D3553B00EF184F /* NibLoadableProtocol.swift */; };
+		3278096E24D3553B00EF184F /* LoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3278094524D3553B00EF184F /* LoadingView.xib */; };
+		3278096F24D3553B00EF184F /* LoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3278094524D3553B00EF184F /* LoadingView.xib */; };
+		3278097024D3553B00EF184F /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3278094624D3553B00EF184F /* LoadingView.swift */; };
+		3278097124D3553B00EF184F /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3278094624D3553B00EF184F /* LoadingView.swift */; };
+		3278097224D3553B00EF184F /* LoadingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3278094724D3553B00EF184F /* LoadingViewController.xib */; };
+		3278097324D3553B00EF184F /* LoadingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3278094724D3553B00EF184F /* LoadingViewController.xib */; };
+		3278097424D3553B00EF184F /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3278094824D3553B00EF184F /* LoadingViewController.swift */; };
+		3278097524D3553B00EF184F /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3278094824D3553B00EF184F /* LoadingViewController.swift */; };
+		3278097624D3553B00EF184F /* PushViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3278094A24D3553B00EF184F /* PushViewController.swift */; };
+		3278097724D3553B00EF184F /* PushViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3278094A24D3553B00EF184F /* PushViewController.swift */; };
+		3278097824D3553B00EF184F /* PushViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3278094B24D3553B00EF184F /* PushViewController.xib */; };
+		3278097924D3553B00EF184F /* PushViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3278094B24D3553B00EF184F /* PushViewController.xib */; };
+		3278097A24D3553B00EF184F /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3278094D24D3553B00EF184F /* Logger.swift */; };
+		3278097B24D3553B00EF184F /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3278094D24D3553B00EF184F /* Logger.swift */; };
+		3278097C24D3553B00EF184F /* AppInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3278094E24D3553B00EF184F /* AppInfo.swift */; };
+		3278097D24D3553B00EF184F /* AppInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3278094E24D3553B00EF184F /* AppInfo.swift */; };
+		3278097E24D3553B00EF184F /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3278094F24D3553B00EF184F /* Keychain.swift */; };
+		3278097F24D3553B00EF184F /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3278094F24D3553B00EF184F /* Keychain.swift */; };
+		3278098024D3553B00EF184F /* DeviceInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3278095024D3553B00EF184F /* DeviceInfo.swift */; };
+		3278098124D3553B00EF184F /* DeviceInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3278095024D3553B00EF184F /* DeviceInfo.swift */; };
+		3278098224D3553B00EF184F /* UserAgent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3278095124D3553B00EF184F /* UserAgent.swift */; };
+		3278098324D3553B00EF184F /* UserAgent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3278095124D3553B00EF184F /* UserAgent.swift */; };
+		3278098424D3553B00EF184F /* StringExtenstions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3278095224D3553B00EF184F /* StringExtenstions.swift */; };
+		3278098524D3553B00EF184F /* StringExtenstions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3278095224D3553B00EF184F /* StringExtenstions.swift */; };
+		3278098624D3553B00EF184F /* LaunchArguments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3278095324D3553B00EF184F /* LaunchArguments.swift */; };
+		3278098724D3553B00EF184F /* LaunchArguments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3278095324D3553B00EF184F /* LaunchArguments.swift */; };
+		3278098824D3553B00EF184F /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3278095524D3553B00EF184F /* AppSettings.swift */; };
+		3278098924D3553B00EF184F /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3278095524D3553B00EF184F /* AppSettings.swift */; };
+		3278098A24D3553B00EF184F /* RemoteConfigManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3278095624D3553B00EF184F /* RemoteConfigManager.swift */; };
+		3278098B24D3553B00EF184F /* RemoteConfigManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3278095624D3553B00EF184F /* RemoteConfigManager.swift */; };
+		3278098C24D3553B00EF184F /* ConfigurationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3278095724D3553B00EF184F /* ConfigurationManager.swift */; };
+		3278098D24D3553B00EF184F /* ConfigurationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3278095724D3553B00EF184F /* ConfigurationManager.swift */; };
+		3278098E24D3553B00EF184F /* LinkBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3278095824D3553B00EF184F /* LinkBuilder.swift */; };
+		3278098F24D3553B00EF184F /* LinkBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3278095824D3553B00EF184F /* LinkBuilder.swift */; };
+		3278099024D3553B00EF184F /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3278095A24D3553B00EF184F /* APIManager.swift */; };
+		3278099124D3553B00EF184F /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3278095A24D3553B00EF184F /* APIManager.swift */; };
+		3278099224D3553B00EF184F /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3278095B24D3553B00EF184F /* SessionManager.swift */; };
+		3278099324D3553B00EF184F /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3278095B24D3553B00EF184F /* SessionManager.swift */; };
+		3278099424D3553C00EF184F /* AdMobManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3278095D24D3553B00EF184F /* AdMobManager.swift */; };
+		3278099524D3553C00EF184F /* AdMobManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3278095D24D3553B00EF184F /* AdMobManager.swift */; };
+		3278099624D3553C00EF184F /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3278095E24D3553B00EF184F /* NotificationManager.swift */; };
+		3278099724D3553C00EF184F /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3278095E24D3553B00EF184F /* NotificationManager.swift */; };
+		3278099824D3553C00EF184F /* ConfigurationSettingsStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3278095F24D3553B00EF184F /* ConfigurationSettingsStorage.swift */; };
+		3278099924D3553C00EF184F /* ConfigurationSettingsStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3278095F24D3553B00EF184F /* ConfigurationSettingsStorage.swift */; };
+		3278099A24D3553C00EF184F /* NavigationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3278096024D3553B00EF184F /* NavigationCoordinator.swift */; };
+		3278099B24D3553C00EF184F /* NavigationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3278096024D3553B00EF184F /* NavigationCoordinator.swift */; };
+		3278099D24D3553C00EF184F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3278096324D3553B00EF184F /* GoogleService-Info.plist */; };
+		3278099E24D3553C00EF184F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3278096524D3553B00EF184F /* GoogleService-Info.plist */; };
+		32D7009625190798009A354B /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D7009525190798009A354B /* GameScene.swift */; };
+		32D7009725190798009A354B /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D7009525190798009A354B /* GameScene.swift */; };
+		3F0F4B8522730708007EFBC8 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0F4B8422730708007EFBC8 /* MenuViewController.swift */; };
+		3F106C2222733A0A005D3886 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F106C2122733A0A005D3886 /* SettingsViewController.swift */; };
+		3F106C2422733E32005D3886 /* Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F106C2322733E32005D3886 /* Options.swift */; };
+		3FA93CD4227348AB005F1EAA /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA93CD3227348AB005F1EAA /* ScoreViewController.swift */; };
+		9A83DEEE24420718003D4B34 /* AudioSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A83DEED24420718003D4B34 /* AudioSource.swift */; };
+		9A83DEF124420785003D4B34 /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A83DEF024420785003D4B34 /* AudioManager.swift */; };
+		9AC475812434875C00A80BE9 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AC475802434875C00A80BE9 /* GameKit.framework */; };
+		9B5D0BEE2DE79F597C3B901C /* Pods_ReactRing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2E6B0CE60AEB15DEDCBE1A7 /* Pods_ReactRing.framework */; };
+		A42422DE1E3C4BA500F7FC1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A42422DC1E3C4BA500F7FC1B /* Main.storyboard */; };
+		A42422E01E3C4BA500F7FC1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A42422DF1E3C4BA500F7FC1B /* Assets.xcassets */; };
+		A42422E31E3C4BA500F7FC1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A42422E11E3C4BA500F7FC1B /* LaunchScreen.storyboard */; };
+		D947A60364248A69F9721A93 /* Pods_ReactRingHD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 067B2D1570CE8825E68A4A29 /* Pods_ReactRingHD.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		067B2D1570CE8825E68A4A29 /* Pods_ReactRingHD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReactRingHD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B82370522E0131C1E596AE0 /* Pods-Berdmon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Berdmon.debug.xcconfig"; path = "Target Support Files/Pods-Berdmon/Pods-Berdmon.debug.xcconfig"; sourceTree = "<group>"; };
+		0F4AC5F8243379C40063CD52 /* LevelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelController.swift; sourceTree = "<group>"; };
+		0F4AC5FA243379D80063CD52 /* LevelController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LevelController.xib; sourceTree = "<group>"; };
+		0F4AC5FC243398620063CD52 /* VibrationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VibrationManager.swift; sourceTree = "<group>"; };
+		0F508533246850E60091BAF2 /* RifficFree-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RifficFree-Bold.ttf"; sourceTree = "<group>"; };
+		0F50AAA32459D17A0073AE00 /* InfoHD.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = InfoHD.plist; sourceTree = "<group>"; };
+		0F50AAB3245ECB720073AE00 /* Pods_JokerWhack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_JokerWhack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F50AAEA245ECC420073AE00 /* Basket Joker HD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Basket Joker HD.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F5828062430EE4300CDA1A8 /* GameLogic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameLogic.swift; sourceTree = "<group>"; };
+		0F5828082430EE4300CDA1A8 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		0F780EC624702E7100E75CA7 /* spring.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = spring.mp3; sourceTree = "<group>"; };
+		0F780ECC2470320F00E75CA7 /* background.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = background.mp3; sourceTree = "<group>"; };
+		0F831F892454A37E00E4F5F1 /* WinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinViewController.swift; sourceTree = "<group>"; };
+		0F8F7C87244DE0F80024D46B /* TubeNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TubeNode.swift; sourceTree = "<group>"; };
+		0F8F7C88244DE0F90024D46B /* BallNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BallNode.swift; sourceTree = "<group>"; };
+		0FAFB511244E31640097682C /* LoseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoseViewController.swift; sourceTree = "<group>"; };
+		27DA3CA3A5C6FCD3043F3A24 /* Pods-FireJokerChallengeHD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireJokerChallengeHD.debug.xcconfig"; path = "Target Support Files/Pods-FireJokerChallengeHD/Pods-FireJokerChallengeHD.debug.xcconfig"; sourceTree = "<group>"; };
+		27E344A5089B30CDE05CCE88 /* Pods-JokerSpinHD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JokerSpinHD.release.xcconfig"; path = "Target Support Files/Pods-JokerSpinHD/Pods-JokerSpinHD.release.xcconfig"; sourceTree = "<group>"; };
+		2D9F340FFCA86666B846207E /* Pods-FireJokerChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireJokerChallenge.debug.xcconfig"; path = "Target Support Files/Pods-FireJokerChallenge/Pods-FireJokerChallenge.debug.xcconfig"; sourceTree = "<group>"; };
+		3278093C24D3553B00EF184F /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3278093F24D3553B00EF184F /* TestRemoteManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestRemoteManager.swift; sourceTree = "<group>"; };
+		3278094024D3553B00EF184F /* TestManger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestManger.swift; sourceTree = "<group>"; };
+		3278094224D3553B00EF184F /* NibLoadableProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibLoadableProtocol.swift; sourceTree = "<group>"; };
+		3278094524D3553B00EF184F /* LoadingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingView.xib; sourceTree = "<group>"; };
+		3278094624D3553B00EF184F /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		3278094724D3553B00EF184F /* LoadingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingViewController.xib; sourceTree = "<group>"; };
+		3278094824D3553B00EF184F /* LoadingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
+		3278094A24D3553B00EF184F /* PushViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushViewController.swift; sourceTree = "<group>"; };
+		3278094B24D3553B00EF184F /* PushViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PushViewController.xib; sourceTree = "<group>"; };
+		3278094D24D3553B00EF184F /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		3278094E24D3553B00EF184F /* AppInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppInfo.swift; sourceTree = "<group>"; };
+		3278094F24D3553B00EF184F /* Keychain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Keychain.swift; sourceTree = "<group>"; };
+		3278095024D3553B00EF184F /* DeviceInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceInfo.swift; sourceTree = "<group>"; };
+		3278095124D3553B00EF184F /* UserAgent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserAgent.swift; sourceTree = "<group>"; };
+		3278095224D3553B00EF184F /* StringExtenstions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtenstions.swift; sourceTree = "<group>"; };
+		3278095324D3553B00EF184F /* LaunchArguments.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchArguments.swift; sourceTree = "<group>"; };
+		3278095524D3553B00EF184F /* AppSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
+		3278095624D3553B00EF184F /* RemoteConfigManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteConfigManager.swift; sourceTree = "<group>"; };
+		3278095724D3553B00EF184F /* ConfigurationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigurationManager.swift; sourceTree = "<group>"; };
+		3278095824D3553B00EF184F /* LinkBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkBuilder.swift; sourceTree = "<group>"; };
+		3278095A24D3553B00EF184F /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		3278095B24D3553B00EF184F /* SessionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
+		3278095D24D3553B00EF184F /* AdMobManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdMobManager.swift; sourceTree = "<group>"; };
+		3278095E24D3553B00EF184F /* NotificationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		3278095F24D3553B00EF184F /* ConfigurationSettingsStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigurationSettingsStorage.swift; sourceTree = "<group>"; };
+		3278096024D3553B00EF184F /* NavigationCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationCoordinator.swift; sourceTree = "<group>"; };
+		3278096324D3553B00EF184F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3278096524D3553B00EF184F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		32D7009525190798009A354B /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		3DD09CE97EB6EEE3A942E86F /* Pods-BerdmonHD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BerdmonHD.debug.xcconfig"; path = "Target Support Files/Pods-BerdmonHD/Pods-BerdmonHD.debug.xcconfig"; sourceTree = "<group>"; };
+		3F0F4B8422730708007EFBC8 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		3F106C2122733A0A005D3886 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		3F106C2322733E32005D3886 /* Options.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Options.swift; sourceTree = "<group>"; };
+		3FA93CD3227348AB005F1EAA /* ScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
+		400176D3F2DDAB0EC39048BC /* Pods-JokerSpinHD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JokerSpinHD.debug.xcconfig"; path = "Target Support Files/Pods-JokerSpinHD/Pods-JokerSpinHD.debug.xcconfig"; sourceTree = "<group>"; };
+		4A7F6D34221344D8A926DE96 /* Pods-JokerSpin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JokerSpin.release.xcconfig"; path = "Target Support Files/Pods-JokerSpin/Pods-JokerSpin.release.xcconfig"; sourceTree = "<group>"; };
+		55C95B8F7D19752913CC0CF8 /* Pods-BasketJokerHD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BasketJokerHD.debug.xcconfig"; path = "Target Support Files/Pods-BasketJokerHD/Pods-BasketJokerHD.debug.xcconfig"; sourceTree = "<group>"; };
+		601CD8F7627797669D296F7E /* Pods-FireJokerChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireJokerChallenge.release.xcconfig"; path = "Target Support Files/Pods-FireJokerChallenge/Pods-FireJokerChallenge.release.xcconfig"; sourceTree = "<group>"; };
+		6025C13C3004379A41BCBCB5 /* Pods-ReactRing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactRing.debug.xcconfig"; path = "Target Support Files/Pods-ReactRing/Pods-ReactRing.debug.xcconfig"; sourceTree = "<group>"; };
+		60F72E78D26A5B725E796717 /* Pods-BasketJoker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BasketJoker.release.xcconfig"; path = "Target Support Files/Pods-BasketJoker/Pods-BasketJoker.release.xcconfig"; sourceTree = "<group>"; };
+		635ABC6A518C75D4CB624BB8 /* Pods-Berdmon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Berdmon.release.xcconfig"; path = "Target Support Files/Pods-Berdmon/Pods-Berdmon.release.xcconfig"; sourceTree = "<group>"; };
+		770605C2E3498DC24A264CEB /* Pods-ReactRingHD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactRingHD.debug.xcconfig"; path = "Target Support Files/Pods-ReactRingHD/Pods-ReactRingHD.debug.xcconfig"; sourceTree = "<group>"; };
+		8A31A280BDA4CC149242DC10 /* Pods-FireJokerChallengeHD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireJokerChallengeHD.release.xcconfig"; path = "Target Support Files/Pods-FireJokerChallengeHD/Pods-FireJokerChallengeHD.release.xcconfig"; sourceTree = "<group>"; };
+		90DAAF08430F65C1FC8B1C69 /* Pods-BasketJoker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BasketJoker.debug.xcconfig"; path = "Target Support Files/Pods-BasketJoker/Pods-BasketJoker.debug.xcconfig"; sourceTree = "<group>"; };
+		9A83DEED24420718003D4B34 /* AudioSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioSource.swift; sourceTree = "<group>"; };
+		9A83DEF024420785003D4B34 /* AudioManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
+		9AC475802434875C00A80BE9 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		A42422D51E3C4BA500F7FC1B /* Basket Joker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Basket Joker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A42422DD1E3C4BA500F7FC1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A42422DF1E3C4BA500F7FC1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A42422E21E3C4BA500F7FC1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A42422E41E3C4BA500F7FC1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5A1DE8E9AFBE62314766BBB /* Pods-BerdmonHD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BerdmonHD.release.xcconfig"; path = "Target Support Files/Pods-BerdmonHD/Pods-BerdmonHD.release.xcconfig"; sourceTree = "<group>"; };
+		D87A47E3C6B90E7019E8CE83 /* Pods-ReactRingHD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactRingHD.release.xcconfig"; path = "Target Support Files/Pods-ReactRingHD/Pods-ReactRingHD.release.xcconfig"; sourceTree = "<group>"; };
+		E2E6B0CE60AEB15DEDCBE1A7 /* Pods_ReactRing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReactRing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E597DEA95D18887920EF1892 /* Pods-BasketJokerHD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BasketJokerHD.release.xcconfig"; path = "Target Support Files/Pods-BasketJokerHD/Pods-BasketJokerHD.release.xcconfig"; sourceTree = "<group>"; };
+		F7A2AE3A55B2C0C18F7B1753 /* Pods-JokerSpin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JokerSpin.debug.xcconfig"; path = "Target Support Files/Pods-JokerSpin/Pods-JokerSpin.debug.xcconfig"; sourceTree = "<group>"; };
+		F9775ECE81A1A1C35801B11F /* Pods-ReactRing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactRing.release.xcconfig"; path = "Target Support Files/Pods-ReactRing/Pods-ReactRing.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F50AAD8245ECC420073AE00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F50AAD9245ECC420073AE00 /* GameKit.framework in Frameworks */,
+				D947A60364248A69F9721A93 /* Pods_ReactRingHD.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A42422D21E3C4BA500F7FC1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AC475812434875C00A80BE9 /* GameKit.framework in Frameworks */,
+				9B5D0BEE2DE79F597C3B901C /* Pods_ReactRing.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06E74D13646D65791B795447 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F7A2AE3A55B2C0C18F7B1753 /* Pods-JokerSpin.debug.xcconfig */,
+				4A7F6D34221344D8A926DE96 /* Pods-JokerSpin.release.xcconfig */,
+				400176D3F2DDAB0EC39048BC /* Pods-JokerSpinHD.debug.xcconfig */,
+				27E344A5089B30CDE05CCE88 /* Pods-JokerSpinHD.release.xcconfig */,
+				0B82370522E0131C1E596AE0 /* Pods-Berdmon.debug.xcconfig */,
+				635ABC6A518C75D4CB624BB8 /* Pods-Berdmon.release.xcconfig */,
+				3DD09CE97EB6EEE3A942E86F /* Pods-BerdmonHD.debug.xcconfig */,
+				B5A1DE8E9AFBE62314766BBB /* Pods-BerdmonHD.release.xcconfig */,
+				2D9F340FFCA86666B846207E /* Pods-FireJokerChallenge.debug.xcconfig */,
+				601CD8F7627797669D296F7E /* Pods-FireJokerChallenge.release.xcconfig */,
+				27DA3CA3A5C6FCD3043F3A24 /* Pods-FireJokerChallengeHD.debug.xcconfig */,
+				8A31A280BDA4CC149242DC10 /* Pods-FireJokerChallengeHD.release.xcconfig */,
+				90DAAF08430F65C1FC8B1C69 /* Pods-BasketJoker.debug.xcconfig */,
+				60F72E78D26A5B725E796717 /* Pods-BasketJoker.release.xcconfig */,
+				55C95B8F7D19752913CC0CF8 /* Pods-BasketJokerHD.debug.xcconfig */,
+				E597DEA95D18887920EF1892 /* Pods-BasketJokerHD.release.xcconfig */,
+				6025C13C3004379A41BCBCB5 /* Pods-ReactRing.debug.xcconfig */,
+				F9775ECE81A1A1C35801B11F /* Pods-ReactRing.release.xcconfig */,
+				770605C2E3498DC24A264CEB /* Pods-ReactRingHD.debug.xcconfig */,
+				D87A47E3C6B90E7019E8CE83 /* Pods-ReactRingHD.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		0F4AC5F7243379B30063CD52 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				0F4AC5F8243379C40063CD52 /* LevelController.swift */,
+				0F4AC5FA243379D80063CD52 /* LevelController.xib */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		0F58280C2430EEBD00CDA1A8 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				0F8F7C86244DE0B20024D46B /* GameViews */,
+				0F4AC5F7243379B30063CD52 /* UI */,
+				0F5828062430EE4300CDA1A8 /* GameLogic.swift */,
+				32D7009525190798009A354B /* GameScene.swift */,
+				0F5828082430EE4300CDA1A8 /* GameViewController.swift */,
+				0F831F892454A37E00E4F5F1 /* WinViewController.swift */,
+				0FAFB511244E31640097682C /* LoseViewController.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		0F8F7C86244DE0B20024D46B /* GameViews */ = {
+			isa = PBXGroup;
+			children = (
+				0F8F7C88244DE0F90024D46B /* BallNode.swift */,
+				0F8F7C87244DE0F80024D46B /* TubeNode.swift */,
+			);
+			path = GameViews;
+			sourceTree = "<group>";
+		};
+		3278093D24D3553B00EF184F /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				3278093E24D3553B00EF184F /* TestManager */,
+				3278094124D3553B00EF184F /* UI */,
+				3278094C24D3553B00EF184F /* Utils */,
+				3278095424D3553B00EF184F /* Storage */,
+				3278095624D3553B00EF184F /* RemoteConfigManager.swift */,
+				3278095724D3553B00EF184F /* ConfigurationManager.swift */,
+				3278095824D3553B00EF184F /* LinkBuilder.swift */,
+				3278095924D3553B00EF184F /* API */,
+				3278095C24D3553B00EF184F /* HelperManagers */,
+				3278095F24D3553B00EF184F /* ConfigurationSettingsStorage.swift */,
+				3278096024D3553B00EF184F /* NavigationCoordinator.swift */,
+			);
+			path = Configurations;
+			sourceTree = "<group>";
+		};
+		3278093E24D3553B00EF184F /* TestManager */ = {
+			isa = PBXGroup;
+			children = (
+				3278093F24D3553B00EF184F /* TestRemoteManager.swift */,
+				3278094024D3553B00EF184F /* TestManger.swift */,
+			);
+			path = TestManager;
+			sourceTree = "<group>";
+		};
+		3278094124D3553B00EF184F /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				3278094224D3553B00EF184F /* NibLoadableProtocol.swift */,
+				3278094324D3553B00EF184F /* LoadingViewController */,
+				3278094924D3553B00EF184F /* PushViewController */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		3278094324D3553B00EF184F /* LoadingViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3278094424D3553B00EF184F /* LoadingView */,
+				3278094724D3553B00EF184F /* LoadingViewController.xib */,
+				3278094824D3553B00EF184F /* LoadingViewController.swift */,
+			);
+			path = LoadingViewController;
+			sourceTree = "<group>";
+		};
+		3278094424D3553B00EF184F /* LoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				3278094524D3553B00EF184F /* LoadingView.xib */,
+				3278094624D3553B00EF184F /* LoadingView.swift */,
+			);
+			path = LoadingView;
+			sourceTree = "<group>";
+		};
+		3278094924D3553B00EF184F /* PushViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3278094A24D3553B00EF184F /* PushViewController.swift */,
+				3278094B24D3553B00EF184F /* PushViewController.xib */,
+			);
+			path = PushViewController;
+			sourceTree = "<group>";
+		};
+		3278094C24D3553B00EF184F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				3278094D24D3553B00EF184F /* Logger.swift */,
+				3278094E24D3553B00EF184F /* AppInfo.swift */,
+				3278094F24D3553B00EF184F /* Keychain.swift */,
+				3278095024D3553B00EF184F /* DeviceInfo.swift */,
+				3278095124D3553B00EF184F /* UserAgent.swift */,
+				3278095224D3553B00EF184F /* StringExtenstions.swift */,
+				3278095324D3553B00EF184F /* LaunchArguments.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		3278095424D3553B00EF184F /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				3278095524D3553B00EF184F /* AppSettings.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		3278095924D3553B00EF184F /* API */ = {
+			isa = PBXGroup;
+			children = (
+				3278095A24D3553B00EF184F /* APIManager.swift */,
+				3278095B24D3553B00EF184F /* SessionManager.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		3278095C24D3553B00EF184F /* HelperManagers */ = {
+			isa = PBXGroup;
+			children = (
+				3278095D24D3553B00EF184F /* AdMobManager.swift */,
+				3278095E24D3553B00EF184F /* NotificationManager.swift */,
+			);
+			path = HelperManagers;
+			sourceTree = "<group>";
+		};
+		3278096124D3553B00EF184F /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				3278096224D3553B00EF184F /* HD */,
+				3278096424D3553B00EF184F /* Free */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		3278096224D3553B00EF184F /* HD */ = {
+			isa = PBXGroup;
+			children = (
+				3278096324D3553B00EF184F /* GoogleService-Info.plist */,
+			);
+			path = HD;
+			sourceTree = "<group>";
+		};
+		3278096424D3553B00EF184F /* Free */ = {
+			isa = PBXGroup;
+			children = (
+				3278096524D3553B00EF184F /* GoogleService-Info.plist */,
+			);
+			path = Free;
+			sourceTree = "<group>";
+		};
+		5E8E09AFED47017C16446E19 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F50AAB3245ECB720073AE00 /* Pods_JokerWhack.framework */,
+				9AC475802434875C00A80BE9 /* GameKit.framework */,
+				E2E6B0CE60AEB15DEDCBE1A7 /* Pods_ReactRing.framework */,
+				067B2D1570CE8825E68A4A29 /* Pods_ReactRingHD.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9A70E9D82442092C00786022 /* AudioSources */ = {
+			isa = PBXGroup;
+			children = (
+				0F780ECC2470320F00E75CA7 /* background.mp3 */,
+				0F780EC624702E7100E75CA7 /* spring.mp3 */,
+			);
+			path = AudioSources;
+			sourceTree = "<group>";
+		};
+		9A83DEEC244206DE003D4B34 /* GameInteractiveManager */ = {
+			isa = PBXGroup;
+			children = (
+				3F106C2322733E32005D3886 /* Options.swift */,
+				9A83DEED24420718003D4B34 /* AudioSource.swift */,
+				0F4AC5FC243398620063CD52 /* VibrationManager.swift */,
+				9A83DEF024420785003D4B34 /* AudioManager.swift */,
+			);
+			path = GameInteractiveManager;
+			sourceTree = "<group>";
+		};
+		A42422CC1E3C4BA500F7FC1B = {
+			isa = PBXGroup;
+			children = (
+				A42422D71E3C4BA500F7FC1B /* ReactRing */,
+				A42422D61E3C4BA500F7FC1B /* Products */,
+				06E74D13646D65791B795447 /* Pods */,
+				5E8E09AFED47017C16446E19 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A42422D61E3C4BA500F7FC1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A42422D51E3C4BA500F7FC1B /* Basket Joker.app */,
+				0F50AAEA245ECC420073AE00 /* Basket Joker HD.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A42422D71E3C4BA500F7FC1B /* ReactRing */ = {
+			isa = PBXGroup;
+			children = (
+				3278093C24D3553B00EF184F /* AppDelegate.swift */,
+				3278093D24D3553B00EF184F /* Configurations */,
+				3278096124D3553B00EF184F /* Firebase */,
+				0F58280C2430EEBD00CDA1A8 /* Game */,
+				3F0F4B8422730708007EFBC8 /* MenuViewController.swift */,
+				3F106C2122733A0A005D3886 /* SettingsViewController.swift */,
+				3FA93CD3227348AB005F1EAA /* ScoreViewController.swift */,
+				9A83DEEC244206DE003D4B34 /* GameInteractiveManager */,
+				9A70E9D82442092C00786022 /* AudioSources */,
+				A42422DC1E3C4BA500F7FC1B /* Main.storyboard */,
+				A42422DF1E3C4BA500F7FC1B /* Assets.xcassets */,
+				A42422E11E3C4BA500F7FC1B /* LaunchScreen.storyboard */,
+				0F508533246850E60091BAF2 /* RifficFree-Bold.ttf */,
+				A42422E41E3C4BA500F7FC1B /* Info.plist */,
+				0F50AAA32459D17A0073AE00 /* InfoHD.plist */,
+			);
+			path = ReactRing;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0F50AAB7245ECC420073AE00 /* ReactRingHD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F50AAE7245ECC420073AE00 /* Build configuration list for PBXNativeTarget "ReactRingHD" */;
+			buildPhases = (
+				0F508542246887EB0091BAF2 /* [CP] Check Pods Manifest.lock */,
+				0F50AAB9245ECC420073AE00 /* Sources */,
+				0F50AAD8245ECC420073AE00 /* Frameworks */,
+				0F50AADB245ECC420073AE00 /* Resources */,
+				460EB328A038D944DA14633E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReactRingHD;
+			productName = TicTacToe;
+			productReference = 0F50AAEA245ECC420073AE00 /* Basket Joker HD.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A42422D41E3C4BA500F7FC1B /* ReactRing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A42422E71E3C4BA500F7FC1B /* Build configuration list for PBXNativeTarget "ReactRing" */;
+			buildPhases = (
+				87AD4204E4B874E7CC65A047 /* [CP] Check Pods Manifest.lock */,
+				A42422D11E3C4BA500F7FC1B /* Sources */,
+				A42422D21E3C4BA500F7FC1B /* Frameworks */,
+				A42422D31E3C4BA500F7FC1B /* Resources */,
+				C40F031E09D225944A5E85EE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReactRing;
+			productName = TicTacToe;
+			productReference = A42422D51E3C4BA500F7FC1B /* Basket Joker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A42422CD1E3C4BA500F7FC1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "";
+				TargetAttributes = {
+					0F50AAB7245ECC420073AE00 = {
+						DevelopmentTeam = DZB9WMXJ2V;
+						ProvisioningStyle = Manual;
+					};
+					A42422D41E3C4BA500F7FC1B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = DZB9WMXJ2V;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = A42422D01E3C4BA500F7FC1B /* Build configuration list for PBXProject "ReactRing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = A42422CC1E3C4BA500F7FC1B;
+			productRefGroup = A42422D61E3C4BA500F7FC1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A42422D41E3C4BA500F7FC1B /* ReactRing */,
+				0F50AAB7245ECC420073AE00 /* ReactRingHD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F50AADB245ECC420073AE00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3278097924D3553B00EF184F /* PushViewController.xib in Resources */,
+				3278097324D3553B00EF184F /* LoadingViewController.xib in Resources */,
+				0F50AADC245ECC420073AE00 /* LaunchScreen.storyboard in Resources */,
+				3278096F24D3553B00EF184F /* LoadingView.xib in Resources */,
+				0F50AADD245ECC420073AE00 /* Assets.xcassets in Resources */,
+				0F50AADF245ECC420073AE00 /* LevelController.xib in Resources */,
+				0F780EC924702E7100E75CA7 /* spring.mp3 in Resources */,
+				0F508535246850E60091BAF2 /* RifficFree-Bold.ttf in Resources */,
+				3278099D24D3553C00EF184F /* GoogleService-Info.plist in Resources */,
+				0F780ECE2470320F00E75CA7 /* background.mp3 in Resources */,
+				0F50AAE3245ECC420073AE00 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A42422D31E3C4BA500F7FC1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3278097824D3553B00EF184F /* PushViewController.xib in Resources */,
+				3278097224D3553B00EF184F /* LoadingViewController.xib in Resources */,
+				A42422E31E3C4BA500F7FC1B /* LaunchScreen.storyboard in Resources */,
+				3278096E24D3553B00EF184F /* LoadingView.xib in Resources */,
+				A42422E01E3C4BA500F7FC1B /* Assets.xcassets in Resources */,
+				3278099E24D3553C00EF184F /* GoogleService-Info.plist in Resources */,
+				0F4AC5FB243379D80063CD52 /* LevelController.xib in Resources */,
+				0F780EC824702E7100E75CA7 /* spring.mp3 in Resources */,
+				0F508534246850E60091BAF2 /* RifficFree-Bold.ttf in Resources */,
+				0F780ECD2470320F00E75CA7 /* background.mp3 in Resources */,
+				A42422DE1E3C4BA500F7FC1B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F508542246887EB0091BAF2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReactRingHD-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		460EB328A038D944DA14633E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReactRingHD/Pods-ReactRingHD-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Amplitude/Amplitude.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookCore/FacebookCore.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/PromisesObjC/FBLPromises.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Amplitude.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBLPromises.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactRingHD/Pods-ReactRingHD-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87AD4204E4B874E7CC65A047 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReactRing-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C40F031E09D225944A5E85EE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReactRing/Pods-ReactRing-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Amplitude/Amplitude.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookCore/FacebookCore.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/PromisesObjC/FBLPromises.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Amplitude.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBLPromises.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactRing/Pods-ReactRing-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F50AAB9245ECC420073AE00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F50AABB245ECC420073AE00 /* ScoreViewController.swift in Sources */,
+				0F50AABE245ECC420073AE00 /* MenuViewController.swift in Sources */,
+				3278098B24D3553B00EF184F /* RemoteConfigManager.swift in Sources */,
+				0F50AABF245ECC420073AE00 /* WinViewController.swift in Sources */,
+				3278098F24D3553B00EF184F /* LinkBuilder.swift in Sources */,
+				3278098724D3553B00EF184F /* LaunchArguments.swift in Sources */,
+				3278098324D3553B00EF184F /* UserAgent.swift in Sources */,
+				3278099724D3553C00EF184F /* NotificationManager.swift in Sources */,
+				0F50AAC1245ECC420073AE00 /* BallNode.swift in Sources */,
+				3278098D24D3553B00EF184F /* ConfigurationManager.swift in Sources */,
+				3278097D24D3553B00EF184F /* AppInfo.swift in Sources */,
+				3278098924D3553B00EF184F /* AppSettings.swift in Sources */,
+				3278099124D3553B00EF184F /* APIManager.swift in Sources */,
+				3278099324D3553B00EF184F /* SessionManager.swift in Sources */,
+				3278099924D3553C00EF184F /* ConfigurationSettingsStorage.swift in Sources */,
+				3278099B24D3553C00EF184F /* NavigationCoordinator.swift in Sources */,
+				3278096B24D3553B00EF184F /* TestManger.swift in Sources */,
+				0F50AAC5245ECC420073AE00 /* LevelController.swift in Sources */,
+				0F50AAC6245ECC420073AE00 /* TubeNode.swift in Sources */,
+				3278097724D3553B00EF184F /* PushViewController.swift in Sources */,
+				3278097B24D3553B00EF184F /* Logger.swift in Sources */,
+				32D7009725190798009A354B /* GameScene.swift in Sources */,
+				3278099524D3553C00EF184F /* AdMobManager.swift in Sources */,
+				0F50AAC7245ECC420073AE00 /* AudioManager.swift in Sources */,
+				3278096724D3553B00EF184F /* AppDelegate.swift in Sources */,
+				0F50AAC8245ECC420073AE00 /* AudioSource.swift in Sources */,
+				0F50AACF245ECC420073AE00 /* Options.swift in Sources */,
+				3278098124D3553B00EF184F /* DeviceInfo.swift in Sources */,
+				0F50AAD0245ECC420073AE00 /* VibrationManager.swift in Sources */,
+				3278097124D3553B00EF184F /* LoadingView.swift in Sources */,
+				3278097524D3553B00EF184F /* LoadingViewController.swift in Sources */,
+				0F50AAD2245ECC420073AE00 /* SettingsViewController.swift in Sources */,
+				3278098524D3553B00EF184F /* StringExtenstions.swift in Sources */,
+				3278097F24D3553B00EF184F /* Keychain.swift in Sources */,
+				0F50AAD3245ECC420073AE00 /* GameLogic.swift in Sources */,
+				3278096D24D3553B00EF184F /* NibLoadableProtocol.swift in Sources */,
+				0F50AAD4245ECC420073AE00 /* LoseViewController.swift in Sources */,
+				0F50AAD5245ECC420073AE00 /* GameViewController.swift in Sources */,
+				3278096924D3553B00EF184F /* TestRemoteManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A42422D11E3C4BA500F7FC1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FA93CD4227348AB005F1EAA /* ScoreViewController.swift in Sources */,
+				3F0F4B8522730708007EFBC8 /* MenuViewController.swift in Sources */,
+				3278098A24D3553B00EF184F /* RemoteConfigManager.swift in Sources */,
+				0F831F8A2454A37E00E4F5F1 /* WinViewController.swift in Sources */,
+				3278098E24D3553B00EF184F /* LinkBuilder.swift in Sources */,
+				3278098624D3553B00EF184F /* LaunchArguments.swift in Sources */,
+				3278098224D3553B00EF184F /* UserAgent.swift in Sources */,
+				3278099624D3553C00EF184F /* NotificationManager.swift in Sources */,
+				0F8F7C8A244DE0F90024D46B /* BallNode.swift in Sources */,
+				3278098C24D3553B00EF184F /* ConfigurationManager.swift in Sources */,
+				3278097C24D3553B00EF184F /* AppInfo.swift in Sources */,
+				3278098824D3553B00EF184F /* AppSettings.swift in Sources */,
+				3278099024D3553B00EF184F /* APIManager.swift in Sources */,
+				3278099224D3553B00EF184F /* SessionManager.swift in Sources */,
+				3278099824D3553C00EF184F /* ConfigurationSettingsStorage.swift in Sources */,
+				3278099A24D3553C00EF184F /* NavigationCoordinator.swift in Sources */,
+				3278096A24D3553B00EF184F /* TestManger.swift in Sources */,
+				0F4AC5F9243379C40063CD52 /* LevelController.swift in Sources */,
+				0F8F7C89244DE0F90024D46B /* TubeNode.swift in Sources */,
+				3278097624D3553B00EF184F /* PushViewController.swift in Sources */,
+				3278097A24D3553B00EF184F /* Logger.swift in Sources */,
+				32D7009625190798009A354B /* GameScene.swift in Sources */,
+				3278099424D3553C00EF184F /* AdMobManager.swift in Sources */,
+				9A83DEF124420785003D4B34 /* AudioManager.swift in Sources */,
+				3278096624D3553B00EF184F /* AppDelegate.swift in Sources */,
+				9A83DEEE24420718003D4B34 /* AudioSource.swift in Sources */,
+				3F106C2422733E32005D3886 /* Options.swift in Sources */,
+				3278098024D3553B00EF184F /* DeviceInfo.swift in Sources */,
+				0F4AC5FE243398620063CD52 /* VibrationManager.swift in Sources */,
+				3278097024D3553B00EF184F /* LoadingView.swift in Sources */,
+				3278097424D3553B00EF184F /* LoadingViewController.swift in Sources */,
+				3F106C2222733A0A005D3886 /* SettingsViewController.swift in Sources */,
+				3278098424D3553B00EF184F /* StringExtenstions.swift in Sources */,
+				3278097E24D3553B00EF184F /* Keychain.swift in Sources */,
+				0F5828092430EE4300CDA1A8 /* GameLogic.swift in Sources */,
+				3278096C24D3553B00EF184F /* NibLoadableProtocol.swift in Sources */,
+				0FAFB512244E31640097682C /* LoseViewController.swift in Sources */,
+				0F58280B2430EE4300CDA1A8 /* GameViewController.swift in Sources */,
+				3278096824D3553B00EF184F /* TestRemoteManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A42422DC1E3C4BA500F7FC1B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A42422DD1E3C4BA500F7FC1B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A42422E11E3C4BA500F7FC1B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A42422E21E3C4BA500F7FC1B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0F50AAE8245ECC420073AE00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 770605C2E3498DC24A264CEB /* Pods-ReactRingHD.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconHD;
+				CODE_SIGN_ENTITLEMENTS = "FireJokerChallenge/Fire Joker Challenge HD.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = DZB9WMXJ2V;
+				ENABLE_BITCODE = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/ReactRing/InfoHD.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fire.jokchhd;
+				PRODUCT_NAME = "Basket Joker HD";
+				PROVISIONING_PROFILE_SPECIFIER = JokerHaryHDProvProfile;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		0F50AAE9245ECC420073AE00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D87A47E3C6B90E7019E8CE83 /* Pods-ReactRingHD.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconHD;
+				CODE_SIGN_ENTITLEMENTS = "FireJokerChallenge/Fire Joker Challenge HD.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = DZB9WMXJ2V;
+				ENABLE_BITCODE = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/ReactRing/InfoHD.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fire.jokchhd;
+				PRODUCT_NAME = "Basket Joker HD";
+				PROVISIONING_PROFILE_SPECIFIER = JokerHaryHDProvProfile;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A42422E51E3C4BA500F7FC1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A42422E61E3C4BA500F7FC1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A42422E81E3C4BA500F7FC1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6025C13C3004379A41BCBCB5 /* Pods-ReactRing.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "FireJokerChallenge/Fire Joker Challenge.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = DZB9WMXJ2V;
+				ENABLE_BITCODE = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/ReactRing/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fire.jokch;
+				PRODUCT_NAME = "Basket Joker";
+				PROVISIONING_PROFILE_SPECIFIER = JokerHaryHDProvProfile;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A42422E91E3C4BA500F7FC1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9775ECE81A1A1C35801B11F /* Pods-ReactRing.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "FireJokerChallenge/Fire Joker Challenge.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = DZB9WMXJ2V;
+				ENABLE_BITCODE = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/ReactRing/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fire.jokch;
+				PRODUCT_NAME = "Basket Joker";
+				PROVISIONING_PROFILE_SPECIFIER = JokerHaryHDProvProfile;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F50AAE7245ECC420073AE00 /* Build configuration list for PBXNativeTarget "ReactRingHD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F50AAE8245ECC420073AE00 /* Debug */,
+				0F50AAE9245ECC420073AE00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A42422D01E3C4BA500F7FC1B /* Build configuration list for PBXProject "ReactRing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A42422E51E3C4BA500F7FC1B /* Debug */,
+				A42422E61E3C4BA500F7FC1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A42422E71E3C4BA500F7FC1B /* Build configuration list for PBXNativeTarget "ReactRing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A42422E81E3C4BA500F7FC1B /* Debug */,
+				A42422E91E3C4BA500F7FC1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A42422CD1E3C4BA500F7FC1B /* Project object */;
+}
